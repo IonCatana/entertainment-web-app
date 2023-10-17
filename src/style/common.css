@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-feature-settings:
+    "clig" off,
+    "liga" off;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;500&display=swap");
+
+:root {
+  --Height: 100vh;
+  --Site-Width: 1440px;
+  --Header-Width: 6rem;
+  /* Colors */
+  --Red: #fc4747;
+  --Greyish-Blu: #5a698f;
+  --Semi-Dark-Blue: #161d2f;
+  --Dark-Blue: #10141e;
+  --Pure-White: #fff;
+
+  /* Typography */
+  --font-primary: "Outfit", sans-serif;
+}
+
+body {
+  min-height: var(--Height);
+  position: relative;
+  font-family: var(--font-primary);
+  font-weight: 300;
+  background-color: var(--Dark-Blue);
+  color: var(--Pure-White);
+  line-height: 1.25;
+  font-size: 16px;
+  padding-left: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--Pure-White);
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.25;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+h4 {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.27;
+}
+
+p {
+  font-size: 0.9375rem;
+  font-weight: 300;
+  line-height: 1.26;
+}

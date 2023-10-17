@@ -1,0 +1,112 @@
+.card-recommanded {
+  position: relative;
+}
+
+.card-recommanded .card-image {
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+.card-recommanded .card-info {
+  position: relative;
+  display: flex;
+  gap: 1.19rem;
+  opacity: 0.75;
+  margin-bottom: 0.31rem;
+}
+
+.card-recommanded .card-category {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 0.38rem;
+}
+
+.card-recommanded .card-year {
+  position: relative;
+}
+.card-recommanded .card-category:after,
+.card-recommanded .card-year:after {
+  position: absolute;
+  content: "•";
+  width: 0.1875rem;
+  height: 0.1875rem;
+  top: 50%;
+  right: -0.78125rem;
+  transform: translate(-64%, -300%);
+}
+.card-recommanded .card-bookmark {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 1rem;
+  right: 1rem;
+  width: 2rem;
+  height: 2rem;
+  z-index: 5;
+  cursor: pointer;
+  background-color: rgba(12, 20, 30, 0.5);
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.card-recommanded .card-bookmark:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.card-recommanded .card-bookmark:hover img {
+  filter: invert(100);
+}
+
+.card-recommanded .card-bookmark img {
+  width: 12px;
+  height: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.card-recommanded:hover .card-play {
+  opacity: 1;
+  visibility: visible;
+}
+
+.card-recommanded .card-play {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.card-recommanded .card-play .card-play-icon {
+  display: flex;
+  align-items: center;
+  gap: 1.19rem;
+  padding: 0.56rem 1.5rem 0.56rem 0.56rem;
+  background-color: rgba(255, 255, 255, 0.25);
+  width: 7.31rem;
+  border-radius: 1.78125rem;
+}
+
+.card-recommanded .card-play .card-play-icon span {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.card-recommanded .card-play .card-play-icon img {
+  width: 30px;
+  height: 30px;
+}

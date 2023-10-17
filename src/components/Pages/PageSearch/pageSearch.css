@@ -1,0 +1,7 @@
+.search {
+  width: calc(100% - var(--Header-Width));
+  margin-left: auto;
+  margin-bottom: 2.12rem;
+  padding-left: 2.25rem;
+  margin-top: 4rem;
+}

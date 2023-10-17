@@ -1,0 +1,38 @@
+header {
+  background-color: var(--Semi-Dark-Blue);
+  width: var(--Header-Width);
+  min-height: calc(var(--Height) - 4rem);
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 1.25rem;
+  top: 2rem;
+}
+
+header .menu-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.75rem;
+}
+
+header .menu-list .menu-list__item.active img {
+  filter: brightness(0) invert(1);
+}
+
+header .logo {
+  margin-top: 2.21rem;
+  margin-bottom: 4.69rem;
+  width: 2rem;
+}
+
+header .login {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  border: 1px solid var(--Pure-White);
+}
