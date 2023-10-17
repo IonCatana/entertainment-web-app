@@ -21,16 +21,16 @@ const Card = ({ title, year, category, rating, thumbnail, isBookmarked, bookmark
         <img src={large} alt={`Thumbnail for ${title}`} />
         <div className="card-play">
           <div className="card-play-icon">
-            <img src="../assets/icon-play.svg" alt="Play Icon" />
+            <img src="/assets/icon-play.svg" alt="Play Icon" />
             <span>Play</span>
           </div>
         </div>
       </div>
       <div className="card-bookmark" onClick={onBookmarkToggle}>
         {isBookmarked ? (
-          <img src="../assets/icon-bookmark-full.svg" alt="Bookmark Icon" />
+          <img src="/assets/icon-bookmark-full.svg" alt="Bookmark Icon" />
         ) : (
-          <img src="../assets/icon-bookmark-empty.svg" alt="Bookmark Icon" />
+          <img src="/assets/icon-bookmark-empty.svg" alt="Bookmark Icon" />
         )}
       </div>
 
