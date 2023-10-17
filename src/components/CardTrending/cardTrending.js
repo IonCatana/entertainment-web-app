@@ -22,14 +22,14 @@ const CardTrending = ({ title, year, category, rating, thumbnail, isBookmarked, 
       </div>
       <div className="card-bookmark" onClick={onBookmarkToggle}>
         {isBookmarked ? (
-          <img src="/assets/icon-bookmark-full.svg" alt="Bookmark Icon" />
+          <img src="/entertainment-web-app/assets/icon-bookmark-full.svg" alt="Bookmark Icon" />
         ) : (
-          <img src="/assets/icon-bookmark-empty.svg" alt="Bookmark Icon" />
+          <img src="/entertainment-web-app/assets/icon-bookmark-empty.svg" alt="Bookmark Icon" />
         )}
       </div>
       <div className="card-play">
         <div className="card-play-icon">
-          <img src="/assets/icon-play.svg" alt="Play Icon" />
+          <img src="/entertainment-web-app/assets/icon-play.svg" alt="Play Icon" />
           <span>Play</span>
         </div>
       </div>

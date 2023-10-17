@@ -25,28 +25,28 @@ const Header = () => {
     <header>
       <div className="menu">
         <div className="logo">
-          <img src="/assets/logo.svg" alt="Logo" />
+          <img src="/entertainment-web-app/assets/logo.svg" alt="Logo" />
         </div>
         <nav>
           <ul className="menu-list">
             <li className={`menu-list__item ${activeIndex === 0 ? "active" : ""}`}>
               <Link to="/" onClick={() => handleItemClick(0)}>
-                <img src="/assets/icon-nav-home.svg" alt="homePage" />
+                <img src="/entertainment-web-app/assets/icon-nav-home.svg" alt="homePage" />
               </Link>
             </li>
             <li className={`menu-list__item ${activeIndex === 1 ? "active" : ""}`}>
               <Link to="/pageMovies" onClick={() => handleItemClick(1)}>
-                <img src="../assets/icon-nav-movies.svg" alt="pageMovies" />
+                <img src="/entertainment-web-app/assets/icon-nav-movies.svg" alt="pageMovies" />
               </Link>
             </li>
             <li className={`menu-list__item ${activeIndex === 2 ? "active" : ""}`}>
               <Link to="/pageTvSeries" onClick={() => handleItemClick(2)}>
-                <img src="/assets/icon-nav-tv-series.svg" alt="pageTvSeries" />
+                <img src="/entertainment-web-app/assets/icon-nav-tv-series.svg" alt="pageTvSeries" />
               </Link>
             </li>
             <li className={`menu-list__item ${activeIndex === 3 ? "active" : ""}`}>
               <Link to="/pageBookmarked" onClick={() => handleItemClick(3)}>
-                <img src="/assets/icon-nav-bookmark.svg" alt="pageMovies" />
+                <img src="/entertainment-web-app/assets/icon-nav-bookmark.svg" alt="pageMovies" />
               </Link>
             </li>
           </ul>
@@ -56,7 +56,7 @@ const Header = () => {
       {/* Login */}
       <div className="login">
         <div className="avatar">
-          <img src="/assets/image-avatar.png" alt="avatar" />
+          <img src="/entertainment-web-app/assets/image-avatar.png" alt="avatar" />
         </div>
       </div>
     </header>
