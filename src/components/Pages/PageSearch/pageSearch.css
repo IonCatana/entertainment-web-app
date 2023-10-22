@@ -5,3 +5,12 @@
   padding-left: 2.25rem;
   margin-top: 4rem;
 }
+.container {
+  margin-top: 2.19rem;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+}
